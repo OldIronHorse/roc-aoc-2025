@@ -17,5 +17,7 @@ import Day01
 import Day02
 
 main! = |_args| {
-    Day01.run!()
+    _ = Day01.run!()
+    _ = Day02.run!()
+    Ok({})
 }
