@@ -14,6 +14,7 @@ import cli.OsStr
 import cli.Path
 import cli.IOErr
 import Day01
+import Day02
 
 main! = |_args| {
     Day01.run!()
