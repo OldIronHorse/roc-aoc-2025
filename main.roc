@@ -15,9 +15,11 @@ import cli.Path
 import cli.IOErr
 import Day01
 import Day02
+import Day03
 
 main! = |_args| {
     _ = Day01.run!()
     _ = Day02.run!()
+    _ = Day03.run!()
     Ok({})
 }
